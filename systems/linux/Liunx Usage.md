@@ -1,5 +1,7 @@
 #Liunx Usage
->ubuntu 删除文件和文件夹命令--**rm**
+
+> ubuntu 删除文件和文件夹命令--**rm**
+
 ```shell
 #删除文件
 rm filename
@@ -7,7 +9,9 @@ rm filename
 #删除文件夹
 rm -r foldername
 ```
->ubuntu 解压缩命令--**tar**
+
+> ubuntu 解压缩命令--**tar**
+
 ```shell
 #目标文件格式是*.tar.*
 
@@ -43,7 +47,8 @@ tar –cjf jpg.tar.bz2 	*.jpg 		#将目录里所有jpg文件打包成jpg.tar后�
 tar –cZf jpg.tar.Z 		*.jpg   	#将目录里所有jpg文件打包成jpg.tar后，并且将其用compress压缩，生成一个umcompress压缩过的包，命名为jpg.tar.Z
 ```
 
->进入与退出文件夹--**cd**
+> 进入与退出文件夹--**cd**
+
 ```shell
 #进入文件夹
 cd foldername | path
@@ -55,7 +60,8 @@ cd ..
 cd /
 ```
 
->切换权限和用户--**su&sudo**
+> 切换权限和用户--**su&sudo**
+
 ```shell
 #提升做某事的权限
 sudo xxxx
@@ -66,7 +72,8 @@ su 				#切换root
 su username 	#切换user
 ```
 
->window&linux文件上传下载--**pscp**
+> window&linux文件上传下载--**pscp**
+
 ```shell
 #上传文件到linux根目录
 ##usage：pscp   [options]   source   [source...]   [user@]host
@@ -80,4 +87,6 @@ pscp ubuntu@123.207.120.226:hello.cpp f:\
 pscp -ls ubuntu@123.207.120.226:
 
 ```
+
+
 
